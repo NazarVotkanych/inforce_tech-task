@@ -1,13 +1,12 @@
+import AllProducts from './Components/AllProducts/AllProducts'
 
-import './App.css'
-import { AuthProvider } from './auth'
 
 function App() {
 
   return (
     <>
       <div className="App">
-      <AuthProvider />
+      <AllProducts />
     </div>
     </>
   )
